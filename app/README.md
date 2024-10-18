@@ -1,7 +1,3 @@
-Here's the updated `README.md` file with detailed steps for running the app:
-
----
-
 # Rule Engine with AST
 
 ## Overview
