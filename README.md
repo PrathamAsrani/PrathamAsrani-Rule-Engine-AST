@@ -20,51 +20,53 @@ Follow these steps to set up and run the application:
 ### Prerequisites
 - Ensure you have **Python**, **Node.js**, and **npm** installed on your system.
 
-### Steps to Run the App
-1. **Open two terminals**: one for the backend and one for the frontend.
+### Steps to Install and Run the App
 
-### Terminal 1: Backend Setup
-1. Navigate to the project directory.
-2. Create a virtual environment:
-   ```bash
-   pip install venv
-   python -m venv backend
-   ```
-3. Activate the virtual environment:
-   - **Windows**:
-     ```bash
-     ./backend/Scripts/activate
-     ```
-   - **Mac/Linux**:
-     ```bash
-     source ./backend/bin/activate
-     ```
-4. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Run the backend server:
-   ```bash
-   uvicorn main:app --reload
-   ```
+### Backend Setup (Terminal 1)
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2. Navigate to the backend project directory:
+    ```bash
+    cd <backend-directory>
+    ```
+3. Create a virtual environment:
+    ```bash
+    python -m venv backend
+    ```
+4. Activate the virtual environment:
+    - **Windows**:
+        ```bash
+        backend\Scripts\activate
+        ```
+    - **Mac/Linux**:
+        ```bash
+        source backend/bin/activate
+        ```
+5. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+6. Run the backend server:
+    ```bash
+    uvicorn main:app --reload
+    ```
 
-### Terminal 2: Frontend Setup
-1. Create a new React application:
-   ```bash
-   npx create-react-app frontend
-   ```
-2. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-3. Install the necessary packages:
-   ```bash
-   npm install
-   ```
-4. Start the frontend server:
-   ```bash
-   npm start
-   ```
+### Frontend Setup (Terminal 2)
+1. Navigate to the frontend directory:
+    ```bash
+    cd <frontend-directory>
+    ```
+2. Install the necessary packages:
+    ```bash
+    npm install
+    ```
+3. Start the frontend development server:
+    ```bash
+    npm start
+    ```
+
 
 ## Layer 1: Database
 ### 1. Database Schema
