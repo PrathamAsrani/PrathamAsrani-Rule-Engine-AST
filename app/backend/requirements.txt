@@ -1,5 +1,5 @@
 psycopg2
-dotenv
+python-dotenv
 FastApi
 uvicorn
 pydantic
